@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>
+  progres one
+</title>
+<link rel="stylesheet" href="css/step.css" >
+</head>
+<body>
+<form th:action="@{/step2}">
+ <div class="container">
+ <main class="grid">
+   <article>
+      <img src="/img/image1.jpeg">
+      <div class="text">
+        <h3> Step 1</h3>
+        <p> Select one whole number 1-10<br>
+        Ex:3</p>
+      </div>
+   </article>
+   
+    <article>
+      <img src="/img/image2.jpeg">
+      <div class="text">
+        <h3> Step 2</h3>
+        <p> Multiple the number with 2<br>
+        Ex:3*2=6
+        </p>
+      </div>
+   </article>
+   
+    <article>
+      <img src="/img/image3.jpeg">
+      <div class="text">
+        <h3> Step 3</h3>
+        <p>Add the number with 10<br>
+        Ex:6+10=16</p>
+      </div>
+   </article>
+   
+    <article>
+      <img src="/img/image4.jpeg">
+      <div class="text">
+        <h3> Step 4</h3>
+        <p> Divide the number by 2<br>
+        Ex:16/2 = 8</p>
+      </div>
+   </article>
+   <div class="button">
+   <input  type="submit" value="NEXT" class="btn">
+ </div>
+ </main>
+ </div>
+
+</form>
+</body>
+</html>

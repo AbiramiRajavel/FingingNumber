@@ -1,0 +1,33 @@
+body{
+ background:url(/img/final.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.outer{
+	margin:50px 50px 0px 50px;
+	
+	
+	height:300px;
+	
+}
+img{
+	padding:170px 50px 50px 50px;
+}
+
+/*.container{
+	
+margin:auto 500px 500px 100px;
+background-color: rgb(157, 225, 180);
+width:500px;
+height:200px;
+max-width: 90%;
+border-radius: 10px;
+ opacity:0.8;
+}*/
+.inner{
+	padding:0px 100px 100px 400px;
+	font-size: 20px;
+	 font-style: italic;
+	 font-style: bold;
+	color:black;
+}

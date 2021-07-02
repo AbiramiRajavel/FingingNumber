@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>
+   
+   game
+</title>
+<link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+
+<div class="container">
+  <form th:action="@{/step1}">
+  <div class="topp">
+  <div >
+  <input type="text" name="FullName" placeholder="Enter your Full name" class="control" required><br><br>
+  <input type="email" name="Email" placeholder="Enter your mail-id" class="control" required> <br><br>
+  </div>
+  <input type="submit" value="Next" class="btn">
+  </form>
+</div>
+</div></body>
+
+
+</html>

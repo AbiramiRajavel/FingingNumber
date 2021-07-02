@@ -1,0 +1,81 @@
+
+body{
+	/*background-position: botton right;
+	width:50%;
+	height:100%;
+	 right:0;*/
+	background:url(/img/springflo.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-repeat: no-repeat;
+	 background-size: 50% 100%;
+	 background-position: right top, left top ;
+  */
+	
+	
+ /*background-repeat: no-repeat;
+	 width:100%;
+    heigth:100%;
+	 background-position: right ;
+background-size:cover;*/
+	
+}
+/*.left{
+	height:100%;
+	width:50%;
+	position:  absolute;
+	right:0px;
+	 background-repeat: no-repeat;
+	 background-position: right ;
+	 background-size: 800px 800px;
+}*/
+
+.container {
+	
+margin:250px 500px auto;
+
+width:500px;
+max-width: 90%;
+
+ opacity:0.8;
+}
+.container form{
+	/*width:100%;
+	margin:auto;
+	padding:auto;*/
+	
+	width:400px;
+		padding:40px;
+	background-color: rgb(255, 255, 128);
+	border-radius: 10px;
+    /*padding:50px 50px 50px 50px;*/	
+	
+}
+.btn{
+	background-color:rgb(128, 255, 255);
+	margin-left:150px;
+	width:100px;
+	transform:translateX(-50%);
+	height:40px;
+	cursor:pointer;
+	outline:none;
+	font-size:16px;
+	
+	text-transform: uppercase;
+	border-radius: 14px;
+}
+
+.container form .control{
+	width:300px;
+	background:white;
+	height:40px;
+	border-radius: 4px;
+	padding: 0 10px;
+	border:1px solid sliver;
+	border-radius: 10px;
+}
+h3{	
+	
+   font-style: italic;
+   color: red;
+}
