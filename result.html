@@ -5,20 +5,48 @@
  step two
 </title>
 
-<link rel="stylesheet" href="css/end.css">
-</head>
+<style>
+body{
+background:url(/img/final.jpeg);
+background-size:cover;
+padding-top:150px;
+padding-left:440px;
+}
+
+.cons{
+width:240px;height:170px;
+background-color:rgb(235, 244, 123);
+margin:auto;
+margin-left:120px;
+border-radius:12px;
+padding:20px 20px 20px 20px
+
+}
+
+img{
+margin-left:190px;
+}
+h3,h1{
+	font-size: 30px;
+	 font-style: italic;
+	 font-style: bold;
+	 color:coral;
+	 
+}
+
+</style>
+<head>
 <body>
-
-<div class="outer">
-<div  class="inner">
-<img src="/img/arrowplain.png" alt="" width=150px height=150px>
-
-
-
-<h1> Your number is..!!</h1>
- <h1 th:text="${output}"> </h1>
-
-</div>
+<div class="container">
+ <form>
+ <img src="/img/arrowplain.png" alt="" width=150px height=150px>
+   <div class="cons">
+       <h3> Your number is...!</h3>
+       <h1 th:text="${output}"</h1>
+    
+   </div>
+  
+</form>
 </div>
 </body>
-</html>
+<html>
